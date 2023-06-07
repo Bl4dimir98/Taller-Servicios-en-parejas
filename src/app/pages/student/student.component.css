@@ -1,2 +1,21 @@
-<link href="https://cdn.jsdelivr.net/npm/daisyui@2.13.5/dist/full.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+.form {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    border: solid #e3e3e3;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
+    transition: all 400ms ease;
+}
+
+.form:hover {
+    transform: scale(1.01);
+}
+
+form {
+    padding: 30px;
+}
+
+span {
+    color: blue;
+}
